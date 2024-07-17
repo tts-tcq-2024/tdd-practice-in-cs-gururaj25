@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 public class StringCalculator 
 {
   public int Add(string input)
@@ -8,7 +11,8 @@ public class StringCalculator
         }
     var separator = new List<string> { ",", "\n" };
     // Split the input string using the separator
-        string[] splitNumbers = input.Split(separator.ToArray(), StringSplitOptions.None);
+        
+      string[] splitNumbers = input.Split(separator.ToArray(), StringSplitOptions.None);
 
         // Convert the split strings to integers
         List<int> numbers = splitNumbers.Select(int.Parse).ToList();

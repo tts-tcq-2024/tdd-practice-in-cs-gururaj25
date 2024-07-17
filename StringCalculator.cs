@@ -2,6 +2,9 @@ public class StringCalculator
 {
   public int Add(string input)
   {
-    throw new NotImplementedException();
+   if (string.IsNullOrEmpty(input))
+        {
+            return 0;
+        }
   }
 }

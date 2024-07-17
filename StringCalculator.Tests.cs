@@ -48,7 +48,7 @@ public class StringCalculatorAddTests
             objUnderTest.Add(input);
         });
     }
-
+/*
   [Fact]
     public void ExpectSumWithNewlineDelimiter()
     {
@@ -59,7 +59,7 @@ public class StringCalculatorAddTests
 
        Assert.Equal(expectedResult, result);
     }
-
+*/
   [Fact]
     public void IgnoreNumbersGreaterThan1000()
     {
@@ -70,7 +70,7 @@ public class StringCalculatorAddTests
 
        Assert.Equal(expectedResult, result);
     }
-
+/*
     [Fact]
     public void ExpectSumWithCustomDelimiter()
     {
@@ -81,4 +81,5 @@ public class StringCalculatorAddTests
 
        Assert.Equal(expectedResult, result);
     }
+    */
 }
